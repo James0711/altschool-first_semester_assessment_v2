@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Sofia+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f7fdfc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 130px;
+}
+
+.main_inner {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 100px;
+}
+
+.main_inner_logo {
+    width: 70px;
+    height: 70px;
+}
+
+.main_inner_head {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    line-height: 50px;
+}
+
+.main_inner_text {
+    font-size: 16px;
+    font-weight: 400;
+    font: "brown";
+    line-height: 25px;
+}
+
+form{
+    width: 45%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.56);
+}
+
+label{
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.1px;
+}
+
+.input1{
+    display: flex;
+    flex-direction: row;
+}
+
+.input1_inner1 > input{
+    width: 95%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 5px;
+}
+
+
+.input1_inner1 > input:focus{
+    border: 2px solid #2EC4B6 !important;
+}
+
+.input1_inner2 > input{
+    width: 95%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 5px;
+}
+
+.input1_inner2 > input:focus{
+    border: 2px solid #2EC4B6 !important;
+}
+
+
+.input2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input2_inner1 > select {
+    width: 95% !important;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.input2_inner1 > select:focus {
+    border: 2px solid #2EC4B6 !important;
+
+}
+
+
+.input2_inner2 > input {
+    width: 95% !important;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.input2_inner2 > input:focus {
+    border: 2px solid #2EC4B6 !important;
+
+}
+
+
+.input3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.input3_inner1 > input{
+    width: 95% !important;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.input3_inner1 > input:focus {
+    border: 2px solid #2EC4B6 !important;
+
+}
+
+.input3_inner2 > input {
+    width: 95% !important;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.input3_inner2 > input:focus {
+    border: 2px solid #2EC4B6 !important;
+
+}
+
+.input4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input4 > select {
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.input4 > select:focus {
+    border: 2px solid #2EC4B6 !important;
+
+}
+
+.input5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input5 > input {
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+.input5 > input:focus {
+    border: 2px solid #2EC4B6 !important;
+
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    background-color: #2EC4B6;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    font-family: 'Sofia Sans', sans-serif;
+    color: #ffffff;
+}
+
+.copy_text {
+    font-size: 13px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.copy_text span {
+    color: #2EC4B6;
+}
+
+@media (max-width:575px){
+    main {
+        flex-direction: column;
+        padding: 30px 15px !important;
+    }
+
+    .main_inner{
+        width: 360px;
+        margin-bottom: 0;
+    }
+    
+
+    form {
+        width: 100%;
+
+        margin-top: 30px;
+        padding: 30px 10px;
+    }
+
+    .input4 > select {
+        margin-top: 7px;
+    }
+
+    input, select {
+        margin-top: 10px !important;
+    }
+}
+
+@media (max-width:375px){
+    .main_inner {
+        width: 340px;
+    }
+}
